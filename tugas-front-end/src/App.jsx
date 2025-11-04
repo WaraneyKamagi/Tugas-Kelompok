@@ -1,6 +1,8 @@
 // src/App.jsx
 import React from "react";
-import Footer from "./footer/index.jsx"; // pastikan path-nya benar
+import Footer from "./footer/index.jsx"; 
+import './App.css'
+import Header from './Header/header.jsx';
 
 function App() {
   return (
@@ -10,7 +12,7 @@ function App() {
         <p>Ini adalah halaman utama aplikasi kamu.</p>
       </main>
 
-      {/* Panggil footer di sini */}
+      <Header />
       <Footer />
     </>
   );
