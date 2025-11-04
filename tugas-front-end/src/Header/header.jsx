@@ -205,7 +205,7 @@ const Header = () => {
                         >
                           <a
                             href="#"
-                            className="block px-4 py-2 hover:bg-purple-700 flex justify-between items-center"
+                            className="block px-4 py-2 hover:bg-purple-700 justify-between items-center"
                           >
                             <span>
                               {typeof item === "string" ? item : item.name}
@@ -247,7 +247,7 @@ const Header = () => {
             </nav>
 
             {/* CTA BUTTON - TANPA HIGHLIGHT KUNING */}
-            <button className="hidden md:block px-6 py-2 bg-gradient-to-r from-purple-600 to-purple-800 text-white font-semibold rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-200">
+            <button className="hidden md:block px-6 py-2 bg-linear-to-r from-purple-600 to-purple-800 text-white font-semibold rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-200">
               Daftar Sekarang
             </button>
           </div>

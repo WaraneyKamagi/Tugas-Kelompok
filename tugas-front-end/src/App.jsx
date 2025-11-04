@@ -3,6 +3,8 @@ import React from "react";
 import Footer from "./footer/index.jsx"; 
 import './App.css'
 import Header from './Header/header.jsx';
+import CardInfo from "./CardInfo/cardInfo.jsx";
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
         <p>Ini adalah halaman utama aplikasi kamu.</p>
       </main>
 
+      <CardInfo />
       <Header />
       <Footer />
     </>
