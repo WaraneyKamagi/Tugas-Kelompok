@@ -10,9 +10,7 @@ import Home from "./Home/home.jsx";
 function App() {
   return (
     <>
-      <main style={{ minHeight: "80vh", padding: "20px" }}>
-        <h1>Selamat Datang di Website UNKLAB</h1>
-        <p>Ini adalah halaman utama aplikasi kamu.</p>
+      <main style={{ minHeight: "20vh", padding: "20px" }}>
       </main>
 
       <Home />
