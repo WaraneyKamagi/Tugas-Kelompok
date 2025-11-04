@@ -1,2 +1,2 @@
-Tugas Front-End 2025
+Tugas Front-End 2025 \n
 Nama Kelompok : Waraney Kamagi, Marcellyno Rotty
