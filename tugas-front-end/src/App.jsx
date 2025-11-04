@@ -4,6 +4,7 @@ import Footer from "./footer/index.jsx";
 import './App.css'
 import Header from './Header/header.jsx';
 import CardInfo from "./CardInfo/cardInfo.jsx";
+import Home from "./Home/home.jsx";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <p>Ini adalah halaman utama aplikasi kamu.</p>
       </main>
 
+      <Home />
       <CardInfo />
       <Header />
       <Footer />
